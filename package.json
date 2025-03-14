@@ -1,0 +1,21 @@
+{
+  "name": "productivity-tracker-server",
+  "version": "1.0.0",
+  "description": "Backend server for the Productivity Tracker Chrome Extension using Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
